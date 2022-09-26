@@ -2,7 +2,7 @@
     background-color: black;
 }
 .header {
-    background-color: #6da2eb; 
+    background-color: #7d7c7e; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
     border-style: solid;
@@ -14,7 +14,7 @@
 
 .header nav {
    padding: 30px;
-   background-color: #6da2eb; 
+   background-color:  #7d7c7e; 
    display:flex;
    align-items: center;
    flex-direction: row;
@@ -26,20 +26,18 @@
     height: 200px;
     width: 200px;
     
-    
-
 }
 
 
 
 .header h1 {
-    color: blue;
+    color:black ;
     align-items: center;
     background-color: inherit;
     font-size: 40px;
+    text-decoration: underline;
     
 }
-
 
 .header ul {
     background-color: inherit;
@@ -48,9 +46,9 @@
     flex-direction: row;
     list-style: none;
     font-size: 20px;
-    border: solid;
-    
-}
+
+   }
+   
 .header li {
     
     background-color: inherit;
@@ -59,7 +57,9 @@
 }
 
 a {
-    background-color: inherit;  
+    color: black;
+    background-color: inherit; 
+    font-weight: bold; 
 }
 
 .symbol:after {
@@ -108,10 +108,22 @@ a {
     flex-direction: row;
     justify-content: center;
     position: relative;
-   text-align: center;
-   color: black;
+    text-align: center;
+    color: black;
     
 }
+
+.section4 {
+    color: black;
+    margin: 20px;
+    padding: 50px;
+    background-color: #6da2eb; 
+    font-size: 20px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+}
+
 
 .pic1 {
     width: 100%;
@@ -130,19 +142,19 @@ a {
      
 }
 
-.label {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-
-
 
 .section h2 {
     background-color: #6da2eb;
     text-decoration: underline; 
     padding: 5px; 
 }
+
+.section2 h2 {
+    background-color: #6da2eb;
+    text-decoration: underline; 
+    padding: 5px; 
+}
+
 
 .section ul {
     background-color: #6da2eb;  
@@ -159,3 +171,20 @@ a {
 p {
     background-color: inherit;
 }
+
+
+@media screen and (max-width: 992px) {
+    body {
+      width: 100%;
+    }
+   
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      width: 100%;
+    }
+    
+    }
+  
+  
