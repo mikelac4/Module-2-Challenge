@@ -1,6 +1,8 @@
+/* Universal selector makes the color for the whole page black */
 * {
     background-color: black;
 }
+/* Header style that changes the background color, font type and color and adds a border */
 .header {
     background-color: #7d7c7e; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -11,7 +13,7 @@
    
    
 }
-
+/* Nav style which uses flex elements to position the elements */
 .header nav {
    padding: 30px;
    background-color:  #7d7c7e; 
@@ -21,7 +23,7 @@
    justify-content: space-between;
     
 }
-
+/* Img style for img inside header, sets height and width */
 .header img {
     height: 200px;
     width: 200px;
@@ -29,7 +31,7 @@
 }
 
 
-
+/* Style for h1 inside of the header, sets color and font size and adds a underline under the text of the h1, flex is used for positioning */
 .header h1 {
     color:black ;
     align-items: center;
@@ -38,7 +40,7 @@
     text-decoration: underline;
     
 }
-
+/* Styles for the list in the header which contain the links to the sections */
 .header ul {
     background-color: inherit;
     color: #ffffff;
@@ -62,6 +64,7 @@ a {
     font-weight: bold; 
 }
 
+/* Adds a symbol between the links in the header */
 .symbol:after {
     content: ' \007C';
     color: black;
@@ -70,14 +73,13 @@ a {
     
     
 }
-
+/* Sets the margin to 20 in the main element */
 .main {
-    background-color: black;
     margin: 20px;
 }
 
 
-
+/* Style for for the about me section, sets color, margin, padding, background-color, font size, line height and flex is used for positioning */
 .section {
     color: black;
     margin: 20px;
@@ -88,7 +90,7 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-
+/* Style for my work section, sets background-color, margin, padding, and flex is used to center the first image you see */
 .section2 {
     
     background-color: #6da2eb;
@@ -99,7 +101,7 @@ a {
     justify-content: center;
 }
 
-
+/* Style for the images used under the first big image, flex is used to have them in rows and centered under the first image */
 .section3 {
     background-color: #6da2eb;
     margin: 20px;
@@ -113,18 +115,9 @@ a {
     
 }
 
-.section4 {
-    color: black;
-    margin: 20px;
-    padding: 50px;
-    background-color: #6da2eb; 
-    font-size: 20px;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: row;
-}
 
 
+/* Style for first big image in my work section, sets height and width and adds a border around the image */
 .pic1 {
     width: 100%;
     height:90%; 
@@ -132,6 +125,8 @@ a {
   
         
 }
+
+/* Style for the remaining images under the first big image in the my work section, sets width and height, margin and adds a border around the images */
 .pic2 {
     width: 95%;
     height: 100%;
@@ -142,20 +137,21 @@ a {
      
 }
 
-
+/* Style for the h2 in the about me section and contact me section, sets background-color, underlines the text and give it a padding of 5 */
 .section h2 {
     background-color: #6da2eb;
     text-decoration: underline; 
     padding: 5px; 
 }
 
+/* Style for the h2 in the my worth section, sets background-color, underlines the text and give it a padding of 5 */
 .section2 h2 {
     background-color: #6da2eb;
     text-decoration: underline; 
     padding: 5px; 
 }
 
-
+/* Styles for the list and the links inside the list in the contact me section, sets the background color */
 .section ul {
     background-color: #6da2eb;  
 }
@@ -172,6 +168,7 @@ p {
     background-color: inherit;
 }
 
+/* Gives the page a responsive layout */
 
 @media screen and (max-width: 992px) {
     body {
