@@ -5,6 +5,10 @@ This webpage was created to use as a portfolio for my work. The page is broken d
 
 ## Screenshot
 
+![Port 1](https://user-images.githubusercontent.com/112447725/192423541-363aab98-d079-4c07-ae0d-a556a14d6e89.png)
+![Port 2](https://user-images.githubusercontent.com/112447725/192423543-8efca68b-a5d2-4777-b3dd-3544c23dd489.png)
+![Port 3](https://user-images.githubusercontent.com/112447725/192423542-9c4d64fb-f351-4b4c-9e6c-074588a7d31b.png)
+![Port 4](https://user-images.githubusercontent.com/112447725/192423544-226503ac-8ca6-4e86-a5d1-875b4fbd95bb.png)
 
 
 ## Links
