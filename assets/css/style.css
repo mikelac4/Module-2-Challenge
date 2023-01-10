@@ -118,13 +118,13 @@ a {
 
 
 /* Style for first big image in my work section, sets height and width and adds a border around the image */
-.pic1 {
+/* .pic1 {
     width: 100%;
     height:90%; 
     border: solid 5px black;
   
         
-}
+} */
 
 /* Style for the remaining images under the first big image in the my work section, sets width and height, margin and adds a border around the images */
 .pic2 {
